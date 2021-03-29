@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">ConsumerAppBFAA</string>
+    <string name="nama_user">Nama</string>
+    <string name="follower_user">Follower</string>
+    <string name="following_user">Following</string>
+    <string name="search_user">Search User</string>
+    <string name="action_settings">Settings</string>
+    <string name="username">Username</string>
+    <string name="company">Company: </string>
+    <string name="blog">Blog</string>
+    <string name="location">Location</string>
+    <string name="title_activity_user_detail">UserDetail</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="favorite">Favorite</string>
+    <string name="addtoFav">Di Tambahkan ke Favorite</string>
+    <string name="alarm">Pengingat</string>
+    <string name="notif">Notifikasi Harian</string>
+</resources>

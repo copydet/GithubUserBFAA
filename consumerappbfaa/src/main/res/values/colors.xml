@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#29b6f6</color>
+    <color name="purple_500">#73e8ff</color>
+    <color name="purple_700">#0086c3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="cyandark">#00838f</color>
+    <color name="cyanlight">#4fb3bf</color>
+    <color name="cyandarktwo">#005662</color>
+    <color name="bluelight">#00acc1</color>
+    <color name="transblue">#e0f7fa</color>
+</resources>

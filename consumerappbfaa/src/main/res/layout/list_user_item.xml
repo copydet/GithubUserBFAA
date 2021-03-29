@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="wrap_content"
+    android:padding="16dp"
+    android:orientation="horizontal">
+
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/avatar_user"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        tools:ignore="MissingConstraints" />
+    <TextView
+        android:id="@+id/nama_user"
+        android:layout_width="292dp"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:layout_marginStart="23dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.85"
+        app:layout_constraintStart_toEndOf="@+id/avatar_user"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="@string/nama_user" />
+
+    <TextView
+        android:id="@+id/follower_user"
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/nama_user"
+        app:layout_constraintTop_toBottomOf="@id/nama_user"
+        tools:text="@string/follower_user" />
+
+    <TextView
+        android:id="@+id/following_user"
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintEnd_toEndOf="@+id/nama_user"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@id/follower_user"
+        app:layout_constraintTop_toBottomOf="@id/nama_user"
+        tools:text="@string/following_user" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
